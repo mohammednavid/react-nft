@@ -11,7 +11,7 @@ const Footer = () => {
         <img src={footerLogo} alt="" className="footer__logo" />
         <p>
           One stop NFT marketplace with 100% safe payment and trusted for more
-          than 3 years.
+          than 3 years.  
         </p>
         <div className="footer__social">
           <img src={discord} alt="" className="footer__icon" />
