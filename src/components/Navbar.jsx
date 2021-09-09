@@ -34,14 +34,10 @@ const Navbar = () => {
   };
   const buttonStyle = {
     whiteSpace: "nowrap",
-    margin: "8px 0px",
     fontFamily: "Nunito Sans",
     fontSize: "1rem",
-    lineHeight: "100%",
-    transition: " all 0.3s linear",
     cursor: "pointer",
     marginLeft: "35px",
-    fontFamily: " Nunito Sans",
     fontWeight: 800,
     lineHeight: "150%",
     color: " #123b53",
@@ -73,7 +69,7 @@ const Navbar = () => {
         <li className="nav__tab">Features</li>
         <li className="nav__tab">Activity</li>
         <li className="nav__tab">
-          <a>Connect Wallet</a>
+          <a href="#">Connect Wallet</a>
         </li>
       </ul>
       <div className="nav__mobile">
