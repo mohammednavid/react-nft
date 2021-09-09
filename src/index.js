@@ -1,6 +1,7 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
+import './assets/fonts/RealityHyper/RealityHyperRegular.ttf'
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 
