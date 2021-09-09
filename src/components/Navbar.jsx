@@ -69,7 +69,7 @@ const Navbar = () => {
         <li className="nav__tab">Features</li>
         <li className="nav__tab">Activity</li>
         <li className="nav__tab">
-          <a href="#">Connect Wallet</a>
+          <button>Connect Wallet</button>
         </li>
       </ul>
       <div className="nav__mobile">

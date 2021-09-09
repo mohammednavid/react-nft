@@ -12,7 +12,7 @@
   justify-content: space-between;
   padding: 0 10%;
   background: transparent;
-  z-index: 100 ;
+  z-index: 100;
   @media screen and (max-width: 600px) {
     padding: 0 5%;
   }
@@ -36,11 +36,13 @@
       color: rgba(250, 250, 250, 0.6);
       transition: all 0.3s linear;
       cursor: pointer;
-        &:hover {
-            color: #a9deee;
-            text-decoration: underline;
-        }
-      a {
+      &:hover {
+        color: #a9deee;
+        text-decoration: underline;
+      }
+      button {
+        cursor: pointer;
+        border: none;
         margin-left: 5vw;
         font-family: Nunito Sans;
         font-weight: 800;
@@ -54,7 +56,7 @@
         background: #123b53;
         transition: all 0.3s linear;
         &:hover {
-            opacity: 0.9;
+          opacity: 0.9;
         }
       }
     }

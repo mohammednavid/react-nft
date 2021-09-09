@@ -215,15 +215,18 @@
         padding: 40px 0 50px 0;
       }
     }
-    a {
+    button {
+      border: none;
+      background: #a9deee;
       cursor: pointer;
+      span{
+      border: none;
       display: flex;
       flex-direction: row;
       align-items: flex-start;
       padding: 21px 30px;
       width: 99px;
       height: 69px;
-      background: #a9deee;
       font-weight: 800;
       font-size: 18px;
       line-height: 150%;
@@ -241,6 +244,7 @@
         width: 99px;
         margin: 0 auto;
       }
+    }
     }
   }
 }
@@ -514,7 +518,9 @@
           border: none;
         }
       }
-      a {
+      button{
+        border: none;
+        cursor: pointer;
         width: 144px;
         height: 69px;
         background: #a9deee;

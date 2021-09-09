@@ -46,7 +46,7 @@ function App() {
             on the Ethereum blockchain. <br />
             The 1st generation consists of 7,777 randomly assembled characters.
           </p>
-          <a href="#">Mint</a>
+          <button><span>Mint</span></button>
         </div>
         {/* </div> */}
       </div>
@@ -139,7 +139,7 @@ function App() {
               <EmailOutlined />
               <input type="text" placeholder="Email address here" />
             </div>
-            <a href="#">Subscribe</a>
+            <button>Subscribe</button>
           </div>
         </div>
       </div>

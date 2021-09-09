@@ -65,7 +65,9 @@
   text-decoration: underline;
 }
 
-.nav .nav__tabs .nav__tab a {
+.nav .nav__tabs .nav__tab button {
+  cursor: pointer;
+  border: none;
   margin-left: 5vw;
   font-family: Nunito Sans;
   font-weight: 800;
@@ -86,7 +88,7 @@
   transition: all 0.3s linear;
 }
 
-.nav .nav__tabs .nav__tab a:hover {
+.nav .nav__tabs .nav__tab button:hover {
   opacity: 0.9;
 }
 
