@@ -6,8 +6,14 @@ import pic3 from "./assets/images/pic3.png";
 import pic4 from "./assets/images/pic4.png";
 import { EmailOutlined } from "@material-ui/icons";
 import Footer from "./components/Footer";
+import Countdown from "./Countdown";
 
 function App() {
+  const currentDate = new Date();
+  const year =
+    currentDate.getMonth() === 11 && currentDate.getDate() > 23
+      ? currentDate.getFullYear() + 1
+      : currentDate.getFullYear();
   return (
     <>
       <Navbar />
@@ -40,13 +46,17 @@ function App() {
             Minting
             <br />
             coming soon!
+            <br />
+            <Countdown date={`${year}-12-31T00:00:00`} />
           </h2>
           <p>
             Nextverse is a collection programmatically, randomly generated NFTs
             on the Ethereum blockchain. <br />
             The 1st generation consists of 7,777 randomly assembled characters.
           </p>
-          <button><span>Mint</span></button>
+          <button>
+            <span>Mint</span>
+          </button>
         </div>
         {/* </div> */}
       </div>
